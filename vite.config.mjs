@@ -9,4 +9,8 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './vitest.setup.mjs',
   },
+  build: {
+    outDir: '../ots_plugin_template/ui',
+    emptyOutDir: true,
+  }
 });
