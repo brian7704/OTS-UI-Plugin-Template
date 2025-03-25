@@ -1,3 +1,3 @@
-# OTS-UI-Plugin-Template
+# OTS-SkyFi-Plugin-UI
 
-This repo serves as the UI for OpenTAKServer plugins and is a git submodule of [OTS-Plugin-Template](https://github.com/brian7704/OTS-Plugin-Template.git).
+UI for the SkyFi plugin

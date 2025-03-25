@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { HomePage } from './pages/Home.page';
+import SkyFi from "@/pages/SkyFi";
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />,
+    element: <SkyFi />,
   },
-], { basename: "/api/plugins/ots_plugin_template" }); // <-------- TODO: Change this line
+], { basename: "/api/plugins/ots_skyfi_plugin" });
 
 export function Router() {
   return <RouterProvider router={router} />;
